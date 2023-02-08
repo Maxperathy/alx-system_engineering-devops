@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -d "/tmp/my_first_directory" ]
+then 
+	mv /tmp/betty /tmp/my_first_directory/
+else 
+	echo "Directory does not exixt"
+fi
